@@ -1,0 +1,11 @@
+header{
+    background-image: url(Images/background.png);
+    background-size: cover; 
+	background-position: center bottom;
+    color: #333;
+    text-align: center; /*對齊方式*/
+	padding: 30px 0 200px; /*框線內側邊界 上 左右 下*/
+	font-family: 'Montserrat', sans-serif;	
+	overflow: hidden;
+	clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0px 85%);
+}
